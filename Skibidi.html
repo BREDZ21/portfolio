@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brandon Redkar's Portfolio</title>
+    <style>
+        /* Body and Background Styling */
+        body {
+            font-family: 'Bangers', cursive, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: #FFD700;
+            background-image: linear-gradient(135deg, #FFD700 25%, #800080 25%, #800080 50%, #FFD700 50%, #FFD700 75%, #800080 75%, #800080 100%);
+            background-size: 56.57px 56.57px;
+        }
+
+        /* Header Styling */
+        header {
+            text-align: center;
+            margin: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border: 5px solid #800080;
+            border-radius: 20px;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+            animation: popIn 1s ease-out;
+        }
+
+        /* Text Styling */
+        h1 {
+            color: #FFD700;
+            font-size: 3em;
+            text-shadow: 3px 3px #000;
+        }
+
+        p {
+            color: #333;
+            font-size: 1.2em;
+        }
+
+        /* Navigation Styling */
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+            font-size: 1.1em;
+        }
+
+        nav li {
+            display: inline;
+        }
+
+        a {
+            text-decoration: none;
+            color: #800080;
+            font-weight: bold;
+            background-color: #FFD700;
+            padding: 8px 15px;
+            border-radius: 15px;
+            box-shadow: 2px 2px #000;
+            transition: transform 0.3s, color 0.3s;
+        }
+
+        a:hover {
+            color: #FFF;
+            background-color: #800080;
+            transform: scale(1.1);
+        }
+
+        /* Section Styling */
+        section {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            margin: 20px;
+            border: 5px dotted #FFD700;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+            animation: popIn 1s ease-out;
+        }
+
+        section h2 {
+            color: #800080;
+            font-size: 2em;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px #000;
+        }
+
+        section p {
+            color: #333;
+            font-size: 1.1em;
+            line-height: 1.5;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            border: 3px solid #FFD700;
+            margin-bottom: 15px;
+            box-shadow: 5px 5px #000;
+            transition: transform 0.2s;
+        }
+
+        img:hover {
+            transform: scale(1.05);
+        }
+
+        /* Footer Styling */
+        footer {
+            margin-top: 20px;
+            font-size: 1.2em;
+        }
+
+        footer a {
+            color: #800080;
+            background-color: #FFD700;
+            padding: 10px 15px;
+            border-radius: 15px;
+            text-shadow: 1px 1px #000;
+            box-shadow: 2px 2px #000;
+            transition: transform 0.3s;
+        }
+
+        footer a:hover {
+            color: #FFF;
+            background-color: #800080;
+            transform: scale(1.1);
+        }
+
+        /* Keyframe Animations */
+        @keyframes popIn {
+            0% {
+                transform: scale(0.5);
+                opacity: 0;
+            }
+            100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <p>Hello! I’m Brandon Redkar, an Interactive and Graphic Design major. Here you’ll find some of the projects I’ve worked on this past semester.</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="https://scarce-like-crush.glitch.me">NFL</a></li>
+            <li><a href="https://heavenly-vivacious-sundial.glitch.me">Yoda</a></li>
+            <li><a href="https://chip-sustaining-mushroom.glitch.me">Harry Potter</a></li>
+            <li><a href="https://quilled-cheddar-doll.glitch.me">NBA</a></li>
+            <li><a href="https://pickle-shiny-reason.glitch.me">Pumpkins</a></li>
+        </ul>
+    </nav>
+
+    <!-- Projects -->
+    <section id="project1">
+        <h2>Project 1: NFL WEBPAGE</h2>
+        <img src="https://i2.wp.com/i.etsystatic.com/13841422/r/il/8ec7b3/2567946328/il_fullxfull.2567946328_675j.jpg" alt="[Project Image Description]">
+        <p>This project was a mini NFL webpage with navigation systems for each team.</p>
+    </section>
+
+    <section id="project2">
+        <h2>Project 2: YODA</h2>
+        <img src="https://wallpapercave.com/wp/73RHDo6.jpg" alt="[Project Image Description]">
+        <p>This project involved creating a small quote.</p>
+    </section>
+
+    <section id="project3">
+        <h2>Project 3: HARRY POTTER</h2>
+        <img src="https://wallpaperaccess.com/full/3675280.jpg" alt="[Project Image Description]">
+        <p>This project involved the creation of a navigational site of a book.</p>
+    </section>
+
+    <section id="project4">
+        <h2>Project 4: NBA</h2>
+        <img src="https://i.etsystatic.com/25579710/r/il/b835a3/3063367902/il_fullxfull.3063367902_2puv.jpg" alt="[Project Image Description]">
+        <p>This project gave a brief history of the greatest NBA players of all time.</p>
+    </section>
+
+    <section id="project5">
+        <h2>Project 5: PUMPKINS</h2>
+        <img src="https://i.kym-cdn.com/entries/icons/original/000/051/835/dumb-ahh-pumpkin.jpg" alt="[Project Image Description]">
+        <p>This project involved creating an interactive site that displays animation after each time you press the screen.</p>
+    </section>
+
+    <footer>
+        <a href="#top">Back to Top</a>
+    </footer>
+</body>
+</html>
